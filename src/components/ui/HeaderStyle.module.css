@@ -1,0 +1,201 @@
+.styles {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header-border-1 {
+  border: 0.2rem #ffb43ecc solid;
+  margin: 0.5rem;
+}
+
+.header-border-2 {
+  border: 0.2rem #ffb43ecc solid;
+}
+
+.header-aside-text {
+  font-size: 3rem;
+  color: white;
+  padding: 22rem;
+  margin-top: 1rem;
+  background-color: #016a98c7;
+  box-shadow: #10394b 0px -59px 46px -33px inset;
+}
+
+.innerHtml {
+  padding: 0 1rem;
+  border: 0.2rem #ffffffbd solid;
+  border-radius: 0.5rem;
+  background-color: #ffffff5c;
+  color: #0f4e6e;
+  box-shadow: #f3f3f3c4 0px -50px 36px -28px inset;
+  font-size: 5rem;
+  width: 80vw;
+  margin: 0 2rem;
+}
+
+.parallaxHeight {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.parallax-img {
+  /* border: 0.3rem #e4e4e48a solid; */
+  margin: 0 1rem;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.header-btn {
+  background-color: #bababa00 !important;
+  box-shadow: #f3f3f3e0 0px -50px 36px -28px inset;
+  margin: .5rem 0;
+  padding: .3rem 2rem;
+  transition: 1s;
+}
+
+.header-btn:hover {
+  background-color: royalblue !important;
+  transition: 1.2s;
+}
+
+
+
+@media screen and (min-width: 240px) {
+  .innerHtml {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    /* align-self: self-start; */
+    margin-top: 1rem;
+    padding: 0.1rem;
+  }
+  .header-aside-text {
+    font-size: .8rem;
+    padding: .5rem;
+  }
+
+  .parallaxHeight {
+    height: 110vh;
+  }
+  .parallax-img {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .innerHtml {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding: .9rem;
+  }
+  .header-aside-text {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+
+  .parallaxHeight {
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .parallaxHeight {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .innerHtml {
+    align-self: center;
+  }
+
+  .parallaxHeight {
+    height: 75vh;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  .innerHtml {
+    font-size: 3rem;
+  }
+  .parallaxHeight {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .innerHtml {
+    font-size: 3.5rem;
+  }
+  .parallaxHeight {
+    height: 55vh;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .innerHtml {
+    font-size: 4.5rem;
+    padding: 1.5rem;
+  }
+  .parallaxHeight {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .parallaxHeight {
+    height: 90vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .innerHtml {
+    font-size: 5.5rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .innerHtml {
+    font-size: 6.5rem;
+    line-height: 5.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .innerHtml {
+    font-size: 7rem;
+    width: 70vw;
+  }
+  .parallax {
+    height: 41vh;
+    margin: 0 1rem;
+  }
+  .header-aside-text {
+    border-radius: .5rem;
+    margin: 1rem 2rem 0 2rem;
+  }
+  .parallax-img {
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .innerHtml {
+    font-size: 9rem;
+    width: 60vw;
+    padding: 4rem;
+  }
+  .header-aside-text {
+   margin: 0 24rem;
+  }
+}
+
+@media screen and (min-width: 2360px) {
+  .parallaxHeight {
+    width: 143rem;
+    margin: 0 auto;
+  }
+}

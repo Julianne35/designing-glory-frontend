@@ -1,0 +1,145 @@
+.parttwo-body {
+  background-color: #474747;
+  background: linear-gradient(147deg, #d3dbdf 0%, #bbb5afd6 125%);
+  padding: 0.3rem 1rem 1rem 0;
+}
+
+.content-container {
+  padding: 0.3rem 0 0 1rem;
+}
+
+.parttwo-section h1 {
+  color: white;
+}
+
+.parttwo-section {
+  padding: 0 1rem;
+  margin-top: 3rem;
+}
+
+.parallaxHeight {
+  height: 29rem;
+}
+
+.img-one,
+.img-two,
+.img-three {
+  background: linear-gradient(
+    159deg,
+    #f7f7f7 0%,
+    #ffffff2b 88%,
+    #ffffff2b 100%
+  );
+  padding: 0.3rem;
+  text-align: center;
+  /* border-radius: 0.5rem 0.5rem 0.5rem 0; */
+}
+.img-two {
+  background: linear-gradient(
+    314deg,
+    #f7f7f7 0%,
+    #ffffff2b 88%,
+    #ffffff2b 100%
+  );
+}
+
+.divider {
+  width: 0.1px;
+  display: block;
+}
+
+.art-wrapper {
+  display: block;
+  background-color: transparent;
+  padding: 0.5rem;
+  /* border-radius: 0.5rem; */
+  border-radius: 0in;
+}
+
+.content {
+  background-color: #ffffffd1;
+  height: 16.2rem;
+  margin: 10rem 0.3rem 0.3rem 0.3rem;
+  text-align: center;
+  /* border-radius: 0 0 0.5rem 0.5rem; */
+}
+
+.content h6 {
+  padding-top: 0.5rem;
+}
+.parallaxHeight h5 {
+  color: white;
+  background-color: #016799e8;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 240px) {
+  .parttwo-body,
+  .content-container {
+    padding: 0;
+  }
+
+  .parttwo-section {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .content p {
+    padding: .3rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .content-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flex-wrap {
+    width: 100%;
+  }
+  .content {
+    height: 19.2rem;
+  }
+  .parallaxHeight {
+    height: 32rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    height: 16.2rem;
+  }
+  .parallaxHeight {
+    height: 29rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .parttwo-body {
+    max-width: 61rem;
+    margin: 0 auto 0 auto;
+    background: linear-gradient(1deg, #d3dbdf 0%, #ffffff7a 125%);
+  }
+  .gradient {
+    margin-top: 3rem;
+  }
+  .stripe {
+    background-color: #d5d5d5;
+    height: 28rem;
+    display: block;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1134px) {
+  .parttwo-body {
+    max-width: 69rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .parttwo-body {
+    max-width: 69rem;
+  }
+}

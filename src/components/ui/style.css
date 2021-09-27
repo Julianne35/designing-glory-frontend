@@ -1,0 +1,99 @@
+.swiper-pagination {
+  position: static;
+}
+
+.swiper {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullet {
+  background-color: wheat;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2.2rem;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  height: 7rem;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aside-icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  max-width: 12rem;
+}
+
+.circleBase {
+  border-radius: 50%;
+}
+
+.circle {
+  margin-top: 1rem;
+  width: 100px;
+  height: 100px;
+  background: #4bc475;
+  border: 1px solid #000;
+}
+
+/* remove outline from output */
+.form-control:focus,
+.form-select:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 320px) {
+  .aside-icon {
+    max-width: 13rem;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .aside-icon {
+    max-width: 15rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .aside-icon {
+    max-width: 17rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .aside-icon {
+    font-size: 14px;
+    max-width: 19rem;
+  }
+}
