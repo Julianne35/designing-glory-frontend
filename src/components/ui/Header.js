@@ -1,8 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import { Button } from "react-bootstrap";
 import style from "./HeaderStyle.module.css";
-import headerImg from "../../images/headerImg.jpg";
+import headerImg from "../../images/gold.svg";
 
 const Header = () => {
   const imageDemo = headerImg;
@@ -20,18 +19,24 @@ const Header = () => {
               <section>
                 <div className={style["parallaxHeight"]}>
                   <div className={style["innerHtml"]}>
-                    <b>Header</b> Title
+                    <b>Designing </b>Glory
                   </div>
                   <aside className={style["header-aside-text"]}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </aside>
-                  <aside>
-                    <Button className={style["header-btn"]} variant="light">
-                      Click Me
-                    </Button>
+                    <p>
+                      Designed and established with your goals and needs in
+                      mind.
+                    </p>
+                    <div className={style["header-sub-text"]}>
+                      <em>
+                        Dedicated, developed, responsive websites and
+                        applications.
+                      </em>
+                    </div>
+                    <p>
+                      Portfolio, Small Business, Blog, Online or Personalized
+                      App, with Designing Glory, rest assured you are in
+                      good hands.
+                    </p>
                   </aside>
                 </div>
               </section>
