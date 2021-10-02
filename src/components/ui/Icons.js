@@ -1,7 +1,8 @@
-import ImageOne from "../../images/beach1.jpg";
-import ImageTwo from "../../images/beach2.jpg";
-import ImageThree from "../../images/beach3.jpg";
+import ImageOne from "../../images/texas.jpg";
+import ImageTwo from "../../images/newbreed.jpg";
+import ImageThree from "../../images/port.jpg";
 import { Parallax } from "react-parallax";
+import { Button } from "react-bootstrap";
 import styles from "./IconsStyles.module.css";
 
 const Icons = () => {
@@ -17,20 +18,15 @@ const Icons = () => {
               <div className={styles["flex-wrap"]}>
                 <div className={styles["art-wrapper"]}>
                   <article className={styles["img-one"]}>
-                    <Parallax bgImage={imgOne} strength={200}>
+                    <Parallax
+                      bgImage={imgOne}
+                      strength={100}
+                      // blur={{ min: -5, max: 7 }}
+                    >
                       <div className={styles["parallaxHeight"]}>
-                        <h5>Lorem ipsum</h5>
-                        <div className={styles.content}>
-                          <h6>
-                            <b>Minim veniam</b>
-                          </h6>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
-                          </p>
+                        <h5>Texas-Blessings Website</h5>
+                        <div className={styles["content-one"]}>
+                          <Button className="btn">View Website</Button>
                         </div>
                       </div>
                     </Parallax>
@@ -40,20 +36,15 @@ const Icons = () => {
               <div className={styles["flex-wrap"]}>
                 <div className={styles["art-wrapper"]}>
                   <article className={styles["img-two"]}>
-                    <Parallax bgImage={imgTwo} strength={200}>
+                    <Parallax
+                      bgImage={imgTwo}
+                      strength={50}
+                      // blur={{ min: -5, max: 7 }}
+                    >
                       <div className={styles["parallaxHeight"]}>
-                        <h5>Lorem ipsum</h5>
-                        <div className={styles.content}>
-                          <h6>
-                            <b>Minim veniam</b>
-                          </h6>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
-                          </p>
+                        <h5>New Breed Rising Website</h5>
+                        <div className={styles["content-two"]}>
+                          <Button className="btn">View Website</Button>
                         </div>
                       </div>
                     </Parallax>
@@ -63,20 +54,15 @@ const Icons = () => {
               <div className={styles["flex-wrap"]}>
                 <div className={styles["art-wrapper"]}>
                   <article className={styles["img-three"]}>
-                    <Parallax bgImage={imgThree} strength={200}>
+                    <Parallax
+                      bgImage={imgThree}
+                      strength={300}
+                      className="bg-three"
+                    >
                       <div className={styles["parallaxHeight"]}>
-                        <h5>Lorem ipsum</h5>
-                        <div className={styles.content}>
-                          <h6>
-                            <b>Minim veniam</b>
-                          </h6>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
-                          </p>
+                        <h5>JGraphic Designs Website</h5>
+                        <div className={styles["content-three"]}>
+                          <Button className="btn">View Website</Button>
                         </div>
                       </div>
                     </Parallax>
