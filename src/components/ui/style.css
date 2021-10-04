@@ -88,17 +88,83 @@
 
 /* remove outline from output */
 .form-control:focus,
-.form-select:focus {
+.form-select:focus,
+.btn-dark:focus,
+.btn-light:focus
+.btn-primary:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-
 .btn-primary {
   font-size: .8rem !important;
-  padding: .2rem !important;
-  margin: .3rem !important;
+  padding: .2rem .6rem!important;
+  margin: .5rem !important;
+  background-color: #034b6f !important;
+  border-color: transparent !important;
+  color:#eeeeef;
+}
+
+.btn-dark {
+  font-size: 1rem !important;
+  padding: .5rem .6rem!important;
+  margin: .5rem !important;
+  background-color: #034b6f !important;
+  background-color: #e7a773 !important;
+  box-shadow: #563c24 0px -50px 36px -28px inset;
+  color:#eeeeef;
+}
+
+.btn-light {
+  background-color: #bababa00 !important;
+  box-shadow: #f3f3f3e0 0px -50px 36px -28px inset;
+  margin: .5rem 0;
+  padding: .3rem 2rem !important;
+  transition: 1s;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #ffffffb2 !important;
+  box-shadow: #ffffffe0 0px -50px 36px -28px inset;
+  border-color: 5px #563c24 solid;
+}
+
+.btn-primary:hover {
+  background-color: #c3c3c5 !important;
+  border: 1px #162336 solid !important;
+  transition: .5s;
+  color: #162336;
+}
+
+.btn-dark:hover {
+  background-color: #563c24 !important;
+  box-shadow: #e7a773 0px -50px 36px -28px inset;
+  border: 1px #eeeeef solid;
+  transition: .5s;
+}
+
+a {
+  text-decoration: none;
+  color: #e2e2e2;
+}
+
+a:hover {
+  color: #162336;
+}
+
+a:active {
+  color: #162336;
+}
+
+.form-control {
+  padding: 0 .3rem !important;
+}
+
+textarea.form-control {
+  margin-top: .3rem;
+  min-height: 10rem !important;
 }
 
 @media screen and (min-width: 280px) {
@@ -127,15 +193,28 @@
 }
 
 @media screen and (min-width:768px) {
+  a {
+    text-decoration: none;
+    color: #162336;
+  }
+  
+  a:hover {
+    color: #f0dfd2;
+  }
+  
+  a:active {
+    color: #162336;
+  }
   .btn-primary {
     font-size: 1rem !important;
     padding: .3rem !important;
+    margin: .3rem .3rem !important;
     background-color: #eeeeef !important;
     color:#034b6f;
   }
   .btn-primary:hover {
     background-color: #034b6f !important;
-    border: 1.5px #eeeeef solid;
+    border: 1px #eeeeef solid !important;
     transition: .5s;
   }
 }
@@ -144,6 +223,14 @@
   .aside-icon {
     font-size: 14px;
     max-width: 19rem;
+  }
+}
+
+@media screen and (min-width: 1250px){
+  .btn-light {
+      background-color: #bababaca !important;
+      box-shadow: #f3f3f3e0 0px -50px 36px -29px inset;
+      color: #574c41;
   }
 }
 

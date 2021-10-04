@@ -2,6 +2,7 @@ import React from "react";
 import { Parallax } from "react-parallax";
 import style from "./HeaderStyle.module.css";
 import headerImg from "../../images/gold.svg";
+import { Button } from "react-bootstrap";
 
 const Header = () => {
   const imageDemo = headerImg;
@@ -34,9 +35,18 @@ const Header = () => {
                     </div>
                     <p>
                       Portfolio, Small Business, Blog, Online or Personalized
-                      App, with Designing Glory, rest assured you are in
-                      good hands.
+                      App, with Designing Glory, rest assured you are in good
+                      hands.
                     </p>
+                    <Button variant="dark">
+                      <a
+                        href="https://calendly.com/juliannedrager/website-app-consoltation"
+                        target="blank"
+                        className="a--btn-dark"
+                      >
+                        Sehedule Consultion
+                      </a>
+                    </Button>
                   </aside>
                 </div>
               </section>

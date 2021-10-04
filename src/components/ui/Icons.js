@@ -26,11 +26,11 @@ const Icons = () => {
                       <div className={styles["parallaxHeight"]}>
                         <h5>Texas-Blessings Website</h5>
                         <div className={styles["content-one"]}>
-                          <Button className="btn">View Website</Button>
+                          <Button className="btn"><a href="http://jgraphicdesigns.com/tmp/texas-blessings.com/" target="blank">View Website</a></Button>
                         </div>
                       </div>
                     </Parallax>
-                  </article>
+                  </article>  
                 </div>
               </div>
               <div className={styles["flex-wrap"]}>
@@ -44,7 +44,7 @@ const Icons = () => {
                       <div className={styles["parallaxHeight"]}>
                         <h5>New Breed Rising Website</h5>
                         <div className={styles["content-two"]}>
-                          <Button className="btn">View Website</Button>
+                          <Button className="btn"><a href="https://newbreedrising.org/" target="blank">View Website</a></Button>
                         </div>
                       </div>
                     </Parallax>
@@ -61,8 +61,8 @@ const Icons = () => {
                     >
                       <div className={styles["parallaxHeight"]}>
                         <h5>JGraphic Designs Website</h5>
-                        <div className={styles["content-three"]}>
-                          <Button className="btn">View Website</Button>
+                        <div className={styles["content-three"]}> 
+                          <Button className="btn"><a href="http://jgraphicdesigns.com/" target="blank">View Website</a></Button>
                         </div>
                       </div>
                     </Parallax>

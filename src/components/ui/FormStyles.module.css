@@ -1,32 +1,26 @@
 .email,
-.password,
+.name,
 .address,
 .address2,
 .city,
 .state,
-.zip {
-    padding: 0 .3rem !important;
-    margin: .3rem 0 !important;
+.zip,
+.textarea {
+  padding: 0 0.3rem !important;
+  margin: 0.3rem 0 !important;
 }
 
-.submit-btn {
-    background-color: #bababa00 !important;
-    box-shadow: #f3f3f3e0 0px -50px 36px -28px inset;
-    margin: .5rem 0;
-    padding: .3rem 2rem;
-    transition: 1s;
-    border:none;
+.error {
+  fill: #ffd23b;
+  width: 24px;
+  height: 21px;
 }
 
-.submit-btn:hover {
-    background-color: #bababa !important;
-    box-shadow: #655555e0 0px -50px 36px -28px inset;
+.email,
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
 }
 
-@media screen and (min-width: 1250px){
-    .submit-btn {
-        background-color: #bababaca !important;
-        box-shadow: #f3f3f3e0 0px -50px 36px -29px inset;
-        color: #574c41;
-    }
-  }
