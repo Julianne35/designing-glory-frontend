@@ -216,4 +216,7 @@
   .parttwo-body {
     max-width: 69rem;
   }
+  .aside-text {
+    margin: 1rem 2rem 1rem 2rem;
+  }
 }

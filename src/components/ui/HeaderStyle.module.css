@@ -15,9 +15,9 @@ em {
 }
 
 p {
-  padding: 0 0.5rem;
+  padding: 0 0.2rem;
   margin: 0;
-  line-height: 1.1rem;
+  font-size: 1rem;
 }
 
 .styles {
@@ -92,7 +92,7 @@ p {
     line-height: 1.5rem;
   }
   p {
-    line-height: 1.3rem;
+    font-size: .9rem;
   }
   .innerHtml {
     font-size: 2.5rem;
@@ -102,9 +102,6 @@ p {
   .header-aside-text {
     font-size: 1.1rem;
     padding: 1.2rem;
-  }
-  .parallaxHeight {
-    /* height: 80vh; */
   }
 }
 
@@ -116,9 +113,6 @@ p {
   .header-aside-text {
     font-size: 1.1rem;
     padding: 1rem 0.5rem;
-  }
-  .parallaxHeight {
-    /* height: 100vh; */
   }
 }
 
@@ -132,10 +126,6 @@ p {
   .header-aside-text {
     font-size: 1.1rem;
     padding: 1rem 1.2rem;
-  }
-
-  .parallaxHeight {
-    /* height: 75vh; */
   }
 }
 
@@ -173,18 +163,12 @@ p {
   .innerHtml {
     font-size: 3rem;
   }
-  .parallaxHeight {
-    /* height: 65vh; */
-  }
 }
 
 @media screen and (min-width: 480px) {
   .header-aside-text {
     font-size: 1rem;
     padding: 0.8rem 2.8rem;
-  }
-  .parallaxHeight {
-    /* height: 55vh; */
   }
 }
 
@@ -204,15 +188,12 @@ p {
   }
   .header-aside-text {
     font-size: 1rem;
-    padding: 0.8rem 5.5em;
+    padding: 0.8rem 4.5em;
   }
   .innerHtml {
     font-size: 4.5rem;
     line-height: 4.2rem;
     padding: 1.5rem;
-  }
-  .parallaxHeight {
-    /* height: 60vh; */
   }
 }
 
@@ -220,9 +201,6 @@ p {
   .innerHtml {
     font-size: 3rem;
     padding: 0;
-  }
-  .parallaxHeight {
-    /* height: 80vh; */
   }
   .header-aside-text {
     padding: 0.8rem 0.5em;
@@ -245,9 +223,6 @@ p {
     line-height: 5rem;
     padding: 2rem;
   }
-  .parallaxHeight {
-    /* height: 57vh; */
-  }
 }
 
 @media screen and (min-width: 800px) {
@@ -264,9 +239,6 @@ p {
   .innerHtml {
     font-size: 6.5rem;
     line-height: 5.5rem;
-  }
-  .parallaxHeight {
-    /* height: 55vh; */
   }
 }
 
@@ -291,9 +263,6 @@ p {
     font-size: 5.5rem;
     line-height: 4.2rem;
     padding: 2rem;
-  }
-  .parallaxHeight {
-    /* height: 95vh; */
   }
 }
 
@@ -326,9 +295,6 @@ p {
   .parallax-img {
     margin: 0 1rem;
   }
-  .parallaxHeight {
-    /* height: 60vh; */
-  }
 }
 
 @media screen and (min-width: 1134px) {
@@ -348,7 +314,7 @@ p {
     margin-bottom: 1.5rem;
   }
   .header-aside-text {
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
     width: 87rem;
   }
 }
@@ -356,6 +322,6 @@ p {
 @media screen and (min-width: 2360px) {
   .parallaxHeight {
     width: 143rem;
-    margin: 0 auto;
+    margin: 1rem auto 0 auto;
   }
 }
