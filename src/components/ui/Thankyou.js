@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import {Button} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 const ThankYou = () => {
   const { name } = useParams();
