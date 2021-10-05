@@ -55,6 +55,14 @@
   max-width: 12rem;
 }
 
+.swiper-button-prev{
+  color: #f0f0f0;
+}
+
+.swiper-button-next{
+  color: #254a65;
+}
+
 .circleBase {
   border-radius: 50%;
 }
