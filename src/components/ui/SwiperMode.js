@@ -12,6 +12,7 @@ const SwiperMode = () => {
   return (
     <>
       <Swiper
+        id="testimonies"
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{

@@ -5,7 +5,7 @@ const PartThree = () => {
   return (
     <>
       <section className={style["section-three-a"]}>
-        <h1>Where Everything is created and built for His Glory</h1>
+        <h1>Where everything is created and built for His Glory</h1>
       </section>
       <div className={style.container}>
         <SwiperMode />

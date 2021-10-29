@@ -105,7 +105,8 @@
   box-shadow: none;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-warning {
   font-size: .8rem !important;
   padding: .2rem .6rem!important;
   margin: .5rem !important;
@@ -151,6 +152,11 @@
   box-shadow: #e7a773 0px -50px 36px -28px inset;
   border: 1px #eeeeef solid;
   transition: .5s;
+}
+
+.btn-warning:hover  {
+  color: white;
+  background-color: gray !important;
 }
 
 a {
