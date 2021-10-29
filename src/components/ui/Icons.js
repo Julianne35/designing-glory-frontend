@@ -15,7 +15,7 @@ const Icons = () => {
         <div className={styles.stripe}>
           <aside className={styles["parttwo-body"]}>
             <div className={styles["content-container"]}>
-              <div className={styles["flex-wrap"]}>
+              <div id="texas" className={styles["flex-wrap"]}>
                 <div className={styles["art-wrapper"]}>
                   <article className={styles["img-one"]}>
                     <Parallax
@@ -33,7 +33,7 @@ const Icons = () => {
                   </article>  
                 </div>
               </div>
-              <div className={styles["flex-wrap"]}>
+              <div id="newbreed" className={styles["flex-wrap"]}>
                 <div className={styles["art-wrapper"]}>
                   <article className={styles["img-two"]}>
                     <Parallax
@@ -51,7 +51,7 @@ const Icons = () => {
                   </article>
                 </div>
               </div>
-              <div className={styles["flex-wrap"]}>
+              <div id="graphicdesign" className={styles["flex-wrap"]}>
                 <div className={styles["art-wrapper"]}>
                   <article className={styles["img-three"]}>
                     <Parallax

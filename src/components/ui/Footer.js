@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={style["footer-body"]}>
           <FormField />
         </div>
-        <footer className={style["footer-text"]}>@copyright somewebsite.com 2021</footer>
+        <footer className={style["footer-text"]}>© 2021 Designinglory.com</footer>
       </section>
     </>
   );
